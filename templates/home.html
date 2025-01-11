@@ -1,0 +1,12 @@
+
+{% for elemento in post_list%}
+
+    <h1>{{elemento.title}}</h1>
+    <br>
+
+
+{% empty %} 
+
+    <p>no has agregado elementos</p>
+
+{% endfor %}     
